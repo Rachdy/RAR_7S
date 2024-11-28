@@ -1,6 +1,7 @@
-#include<iostream>
+#include <iostream>
+#include "application/application.hpp"
 
-int main(){
+int main(int argc, char *argv[]){
   
-    return 0;
+    return EXIT_SUCCESS;
 }
