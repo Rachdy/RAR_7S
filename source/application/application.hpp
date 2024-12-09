@@ -10,6 +10,9 @@
 
 namespace application {
 
+  int8_t create_console(); // for console app
+  int8_t create_window(); // for gui app
+
   // to setup application needed before it start running
   bool initilize();
 
