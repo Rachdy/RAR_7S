@@ -3,29 +3,15 @@
 #define FILE_MANANGER_CPP
 
 #include "file_manager.hpp"
-#include <fstream>
-#include <vector>
-
-namespace file_mananger{
-    std::fstream myobj;
-    std::vector<std::fstream> current_opened_files;
-    void open_file(std::string file_name){
-        myobj.open(file_name, std::ios::in);
-    }
-
-    void open_file_as_binary(std::string file_name){
-        myobj.open(file_name, std::ios::binary);
-    }
-
-    void close_file(std:: string file_name){
-
-    }
 
 
-
-
+file* file_mananger::open_file(const std::string& file_path , bool open_as_binary){
 
 }
-// end of namespace file_mananger
+
+
+RCODE file_mananger::close_file(file* file_object){
+
+}
 
 #endif
